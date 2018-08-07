@@ -1,0 +1,417 @@
+/*#############
+### GENERAL ###
+#############*/
+html, body{
+	margin: 0px;
+	padding: 0px;	
+}
+
+/*### footer(subsol) ###*/
+.footer {
+	background-color: #494949;
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	clear: both;
+	margin: 0px;
+	bottom: 0px;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+}
+
+/*### menu ###*/
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #242424;
+	overflow: hidden;
+	display: inline-block;
+	
+}
+.menu ul{
+	list-style-type: none;
+	
+}
+
+.menu ul li{
+	float: left;
+	
+}
+.menu ul li a{
+	display: block;
+    color: white;
+	text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+	
+}
+.menu ul li a:hover:not(.active) {
+    color: #aaaaaa;
+	
+}
+.active{
+	background-color: #4CAF50;
+}
+
+/*### user-bar (bara pentru utilizatori: cosul meu, autentificare) ###*/
+
+.user-bar{
+	top: 0;
+	position: fixed;
+	height: 40px;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #81D6F7;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+.user-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+.user-bar li{
+	float: right;
+	margin-left: 30px;
+	height: 100%;
+	padding: 5px;
+}
+
+.user-bar li a{
+	text-decoration: none;
+	display: block;
+	color: #FCFC9F;
+	font-size: 20px;
+	
+}
+.user-bar li a:hover {
+	color: #FCFC00;
+	font-size: 25px;
+}
+
+.user-bar img{
+	width: 30px;
+	height: 30px;
+}
+.left{
+	float: left;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*################
+### HOME/ACASA ###
+################*/
+
+.container {
+	margin-bottom:100px;
+	overflow:hidden;
+	margin-top: 40px;
+}
+
+.content-main {
+	width: 900px;
+	height: 480px;
+	margin: auto;
+	margin-top: 10px;
+}
+.content-main img{
+	width:900px;
+	height: 480px;
+	
+}
+
+/*###############
+### DESCRIERE ###
+###############*/
+
+.content-descriere{
+	width: 800px;
+	background-color: #b3ffcc;
+	margin: auto;
+	height: 400px;
+	margin-top: 50px;
+	border: 5px dotted black;
+	
+}
+
+.descriere{
+	padding: 30px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.descriere h1{
+	color: #ff3300;
+	text-align: center;
+}
+.descriere li{
+	color: #00cc44;
+	margin-top: 20px;
+}
+.descriere p{
+	float: right;
+	bottom: 0px;
+	font-size: 15px;
+	color: #ff3300;
+}
+
+/*#############
+### PRODUSE ###
+##############*/
+
+/*.container*/
+
+
+.search {
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 20px;
+	
+}
+.search input{
+	width: 100%;
+	font-family:Verdana, Geneva, sans-serif;
+	padding: 5px;
+	
+}
+
+.left-bar {
+	float: left;
+	width: 300px;
+	background-color: #E6E6E6;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: inline-block;
+	
+}
+
+.left-bar ul{
+	margin-left: 0px;
+	
+}
+.left-bar ul li{
+	padding: 5px;
+	border-bottom: 1px solid white;
+	
+}
+
+.left-bar ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.left-bar ul li a:hover {
+	color: blue;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.category-header{
+	background-color: #11A1D1;
+	height: 30px;
+	line-height: 40px;
+	color: white;
+	padding-left: 30px;
+}
+
+.content-produse {
+	background-color: #D3F5BC;
+	float: right;
+	width: 800px;
+	margin-right: 50px; 
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.imagine-produs{
+	width: 234px;
+	height: 300px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	border: 1px solid black;
+}
+
+.imagine-produs img{
+	width: 228px;
+	height: 228px;
+	margin: 5px;
+}
+.imagine-produs a{
+	text-decoration: none;
+	color: black;
+}
+
+/*#############
+### CONTACT ###
+#############*/
+
+.content-contact{
+	width: 800px;
+	background-color: #b3ffcc;
+	margin: auto;
+	height: 400px;
+	margin-top: 50px;
+	border: 1px solid rgb(159,159,159);
+}
+.info{
+	float: right;
+	width:  340px;
+	height: 340px;
+	padding: 30px;
+	background-color: white;
+	border-left: 1px solid rgb(159,159,159);
+}
+
+.info h1{
+	color: #ff3300;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+
+.info p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	bottom: 0px;
+	font-size: 15px;
+	color: #ff3300;
+}
+
+.info img{
+	width: 40px;
+	height: 40px;
+	
+}
+
+.map{
+	width:399px;
+	height:400px;
+	float: left;
+}
+
+/*###########
+### LOGIN ###
+###########*/
+
+
+.container-login{
+	width: 720px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 100px;
+			
+}
+.container-login h1 {
+	text-align: center;
+	color: black;
+}
+.login{
+	float: left;
+	background-color: #3AE8B7;
+	width: 300px;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+.sign-up{
+	float: right;
+	background-color: #3AE8B7;
+	width: 300px;
+	height: 350px;	
+	margin-top: 40px;
+	margin-bottom: 100px;
+	padding: 20px;
+}
+
+.form {
+	width: 250px;
+	margin: auto;
+}
+.error {
+	color: red;
+	text-align: center;
+}
+
+/*#########
+### COS ###
+#########*/
+
+/*.container*/
+
+.content-cos{
+	width: 740px;
+	background-color: rgb(189,249,136);
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+
+}
+.obiect {
+	background-color: rgb(241,248,203);
+	margin-top: 10px;
+	height: 200px;
+	border: 1px solid rgb(159,159,159);
+}
+
+.imagine-obiect {
+	float: left;
+	height: 200px;
+	width: 200px;
+	
+}
+.imagine-obiect img{
+	height: 100%;
+	width:100%;
+	
+}
+.descriere-obiect {
+	float:right;
+	width: 480px;
+	height: 180px;
+	padding-top: 3px;
+}
+.total {
+	height: 100px;
+	background-color: #AFC3F0;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 2px;
+	margin-bottom: 0px;
+	border: 1px solid rgb(159,159,159);
+}
+
+/*##########
+### ITEM ###
+##########*/
+
+.container-item{
+	background-color: #9BF2D8;
+	margin: auto;
+	width: 1000px;
+	margin-top: 100px;
+	height: 500px;
+	margin-bottom: 100px;
+
+}
+
+.content-item {
+	padding-top: 50px;
+	padding-left: 400px;
+	padding-bottom: 120px
+}
+
+.image{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+
+.image img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	
+}
